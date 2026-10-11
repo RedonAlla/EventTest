@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="RA.Utilities.Feature" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../EventTest.Domain/EventTest.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

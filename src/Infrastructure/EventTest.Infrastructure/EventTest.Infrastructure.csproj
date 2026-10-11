@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Core/EventTest.Application/EventTest.Application.csproj" />
+    <ProjectReference Include="../EventTest.Persistence/EventTest.Persistence.csproj" />
+    <ProjectReference Include="../EventTest.Integration/EventTest.Integration.csproj" />
+  </ItemGroup>
+
+</Project>

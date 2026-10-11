@@ -1,0 +1,12 @@
+using System.Diagnostics.CodeAnalysis;
+
+namespace EventTest.Integration;
+
+/// <summary>
+///     Marker type used by the composition root to locate the Integration assembly.
+/// </summary>
+[SuppressMessage(
+    "Maintainability",
+    "CA1515:Consider making public types internal",
+    Justification = "The type is intentionally public so the composition root can reference the Integration assembly.")]
+public sealed class AssemblyReference;
