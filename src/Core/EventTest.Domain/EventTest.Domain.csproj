@@ -1,6 +1,0 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
-    <PackageReference Include="RA.Utilities.Core.ValueObjects" />
-    <PackageReference Include="RA.Utilities.Data.Entities" />
-  </ItemGroup>
-</Project>
